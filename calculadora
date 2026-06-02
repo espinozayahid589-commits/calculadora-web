@@ -2,23 +2,35 @@
 <html>
 <head>
 <title>Calculadora</title>
+
+<style>
+body{
+font-family:Arial;
+text-align:center;
+}
+
+button{
+background-color:blue;
+color:white;
+padding:10px;
+margin:5px;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>Calculadora</h1>
+<h1>Calculadora en GitHub</h1>
 
-<input type="number" id="n1">
-<input type="number" id="n2">
+<input type="text" id="pantalla">
 
-<button onclick="sumar()">Sumar</button>
+<br><br>
 
-<script>
-function sumar(){
-let a = Number(document.getElementById("n1").value);
-let b = Number(document.getElementById("n2").value);
-alert(a+b);
-}
-</script>
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>+</button>
 
 </body>
 </html>
